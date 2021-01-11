@@ -1,0 +1,1 @@
+const GraphQLObjectType = require('graphql');
