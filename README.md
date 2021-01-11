@@ -9,4 +9,4 @@
 * Apollo
 
 ### SpaceX API 
-[GitHub](https://github.com/r-spacex/SpaceX-API )
+[SpaceX](https://github.com/r-spacex/SpaceX-API )
