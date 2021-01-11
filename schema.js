@@ -17,7 +17,7 @@ const LaunchType = new GraphQLObjectType({
     mission_name: { type: GraphQLString },
     launch_year: { type: GraphQLString },
     launch_date_local: { type: GraphQLString },
-    lunch_success: { type: GraphQLBoolean },
+    launch_success: { type: GraphQLBoolean },
     rocket: { type: RocketType }
   })
 });
@@ -41,7 +41,7 @@ const RootQuery = new GraphQLObjectType({
     launches: {
       type: new GraphQLList(LaunchType),
       resolve(_, args) {
-        return axios.get('https://api.spacexdata.com/v4/launches')
+        return axios.get('https://api.spacexdata.com/v3/launches')
           .then(res => res.data);
       }
     }
