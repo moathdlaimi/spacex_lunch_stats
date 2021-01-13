@@ -23,3 +23,9 @@
 ## Run 
 * $ git clone "URL"
 * $ npm install
+
+## Screenshots
+
+![screenshot](https://github.com/moathdlaimi/spacex_lunch_stats/blob/main/client/src/ScreenShot1.png)
+
+![screenshot](https://github.com/moathdlaimi/spacex_lunch_stats/blob/main/client/src/ScreenShot2.png)
