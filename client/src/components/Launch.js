@@ -33,7 +33,7 @@ const Launch = () => {
           ({ loading, error, data }) => {
             if (loading) return <h4>Loading..</h4>
             if (error) console.log(error)
-            console.log(data)
+            // console.log(data)
             const { mission_name, flight_number, launch_year, launch_success, rocket: {
               rocket_id, rocket_name, rocket_type
             } } = data.launch
