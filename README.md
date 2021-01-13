@@ -18,3 +18,8 @@
 
 ### SpaceX API 
 [SpaceX](https://github.com/r-spacex/SpaceX-API )
+
+
+## Run 
+* $ git clone "URL"
+* $ npm install
